@@ -1,0 +1,21 @@
+img {
+    height: 20%;
+    width: auto;
+  }
+  
+  td {
+    margin: 2px;
+  }
+  
+  table {
+    width: 50%;
+    border-style: solid;
+    float: left;
+  }
+
+  .main{
+    width: 50%;
+    border-style: solid;
+    float: right;
+    position: fixed;
+  }

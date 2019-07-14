@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+div.card-header {
+ font-size: large;
+}
+
+div.card {
+  margin-top: 10px
+}
+
+.table {
+  margin-top: 10px
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div.a {
+  background-color: pink;
+  padding: 2%;
+}
+
+div.c {
+  background-color: white;
+  padding: 1%;
+  margin: 1%;
+}
