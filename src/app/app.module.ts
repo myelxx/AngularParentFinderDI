@@ -9,8 +9,10 @@ import { ClothingComponent } from './report/clothing.component';
 import { PantsComponent } from './report/pants.component';
 import { ShirtComponent } from './report/shirt.component';
 import { SkirtComponent } from './report/skirt.component';
+import { MensApparelComponent } from './report/men-apparel.component';
+import { WomenApparelComponent } from './report/women-apparel.component';
 
-const parentFinder = [ParentFinderComponent, ClothingComponent, ShirtComponent, SkirtComponent, PantsComponent];
+const parentFinder = [ParentFinderComponent, ClothingComponent, WomenApparelComponent, MensApparelComponent, ShirtComponent, SkirtComponent, PantsComponent];
 
 @NgModule({
   declarations: [

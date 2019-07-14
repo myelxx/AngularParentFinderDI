@@ -9,6 +9,8 @@ import { Parent, Base } from './parent-finder.component';
         <pants></pants>
         <shirt></shirt>
         <skirt></skirt>
+        <mens-apparel></mens-apparel>
+        <women-apparel></women-apparel>
       </div>`,
     providers: [{ provide: Parent, useExisting: forwardRef(() => ClothingComponent) }],
 })
